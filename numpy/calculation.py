@@ -45,3 +45,6 @@ print("{} 最低".format(name[min_idx]))
 a = np.array([150.1, 242.32, 132.89, 121.3])
 print('ceil: ', np.ceil(a))
 print('floor: ', np.floor((a)))
+
+# 指定上下界限的截取
+print('clip: ', a.clip(160, 180))
