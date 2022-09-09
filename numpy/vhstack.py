@@ -12,6 +12,7 @@ b = np.array([
 # 水平合并
 c = np.hstack([a, b])
 print(c)        # shape (2, 4)
+# 垂直合并
 d = np.vstack([a, b])
 print(d)        # shape (4, 2)
 
